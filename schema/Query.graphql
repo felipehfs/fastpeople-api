@@ -1,0 +1,14 @@
+#import Video from "Video.graphql"
+#import User from "User.graphql"
+#import Category from "Category.graphql"
+#import Info from "Info.graphql"
+#import Profile from "Profile.graphql"
+
+type Query {
+    allVideos:[Video!]
+    users:[User!]
+    categories:[Category!]
+    info: Info
+    usersOnline: Int!
+    myProfile: Profile
+}

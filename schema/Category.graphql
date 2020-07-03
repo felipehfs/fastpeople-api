@@ -1,0 +1,9 @@
+#import Video from 'Video.graphql'
+scalar Date
+
+type Category {
+    id: ID!
+    name: String!
+    created_at: Date
+    videos: [Video!]
+}

@@ -1,0 +1,7 @@
+type Info{
+    id: ID!
+    name: String
+    email: String
+    avatar: String
+    online: Boolean
+}

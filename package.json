@@ -1,0 +1,27 @@
+{
+  "name": "randomTalk-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --ext js,graphql"
+  },
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^6.0.11",
+    "@graphql-tools/load": "^6.0.11",
+    "@graphql-tools/schema": "^6.0.11",
+    "apollo-server": "^2.15.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.1.0",
+    "graphql-import": "^1.0.2",
+    "graphql-tools": "^6.0.11",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "nodemon": "^2.0.4"
+  }
+}

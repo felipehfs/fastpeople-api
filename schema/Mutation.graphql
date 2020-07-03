@@ -1,0 +1,12 @@
+#import User from 'User.graphql'
+#import Video, VideoInput from 'Video.graphql'
+#import Category from 'Category.graphql'
+#import Profile from 'Profile.graphql'
+
+type Mutation {
+    newUser(name: String!, email: String! password: String!): User
+    newVideo(video: VideoInput!): Video
+    newCategory(name: String!): Category
+    login(email: String!, password: String!): String
+    newProfile(avatar: String!, online: Boolean): Profile
+}

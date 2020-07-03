@@ -1,0 +1,18 @@
+#import Category from 'Category.graphql'
+#import User from 'User.graphql'
+
+type Video {
+    id: ID! 
+    url: String!
+    views: Int
+    name: String!
+    owner: User
+    category: Category
+}
+
+input VideoInput {
+    owner: Int!
+    url: String!
+    name: String!
+    category: Int!
+}

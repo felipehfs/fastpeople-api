@@ -1,0 +1,5 @@
+type Profile {
+    id: Int!
+    avatar: String 
+    online: Boolean
+}
